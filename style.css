@@ -1,19 +1,18 @@
 body {
     text-align: center;
-    font-family: Arial;
-    background-color: lightblue;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: darkblue;
+    margin-top: 20px;
 }
 
 .board {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: 100px 100px 100px;
     gap: 5px;
     justify-content: center;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .cell {
@@ -26,6 +25,7 @@ h1 {
 }
 
 button {
-    padding: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
     cursor: pointer;
 }
